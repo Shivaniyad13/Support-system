@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "rewrites": [
+    {
+      "source": "/beneficiaries/:path*",
+      "destination": "https://support-us-backend.vercel.app/beneficiaries/:path*"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "https://support-us-backend.vercel.app/api/:path*"
+    }
+  ]
+}
